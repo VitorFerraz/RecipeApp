@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		49ACC6B92CB5FBA3004219E3 /* Presentation in Frameworks */ = {isa = PBXBuildFile; productRef = 49ACC6B82CB5FBA3004219E3 /* Presentation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		49C4EEF52CB2E04900AAC4CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49ACC6B92CB5FBA3004219E3 /* Presentation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = RecipeApp;
 			packageProductDependencies = (
+				49ACC6B82CB5FBA3004219E3 /* Presentation */,
 			);
 			productName = RecipeApp;
 			productReference = 49C4EEE42CB2E04400AAC4CF /* RecipeApp.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 49C4EEDB2CB2E04400AAC4CF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				49ACC6B72CB5FBA3004219E3 /* XCLocalSwiftPackageReference "Packages/Presentation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 49C4EEE52CB2E04400AAC4CF /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		49ACC6B72CB5FBA3004219E3 /* XCLocalSwiftPackageReference "Packages/Presentation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Presentation;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49ACC6B82CB5FBA3004219E3 /* Presentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Presentation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49C4EEDC2CB2E04400AAC4CF /* Project object */;
 }

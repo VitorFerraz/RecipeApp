@@ -7,7 +7,35 @@
 		<key>RecipeApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SimpleStorage (Playground).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Storage (Playground).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>49C4EEE32CB2E04400AAC4CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49C4EEF32CB2E04900AAC4CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49C4EEFD2CB2E04900AAC4CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
