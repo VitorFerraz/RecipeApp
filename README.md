@@ -7,6 +7,8 @@ The app is quite simple but fully modularized, primarily building itself from th
 I focused primarily on the modularization aspect of the app, which offers several benefits, such as improved build times, clear separation of concerns between domain layers, responsibilities, and greater scalability for larger projects involving multiple teams and features.
 
 ## App Architecture Overview
+![App Architecture](./app_arc.png)
+
 ### Commons
 It should serve as a place to share common objects, such as the log function and the Loggable protocol, which can be used across all other modules
 
